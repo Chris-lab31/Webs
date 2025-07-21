@@ -40,3 +40,27 @@
 #logo {
     padding: 140px;
 }
+
+
+
+nav {
+    position: relative;
+    /* Necesario para posicionar el logo respecto al navbar */
+}
+
+.nav-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav-center img {
+    height: 90px;
+    margin-top: 125px;
+    padding: 10px;
+    background-color: white;
+    position: relative;
+    padding: -100px;
+    
+    /* Ajusta el tamaño del logo si lo necesitas */
+}
