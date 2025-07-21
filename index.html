@@ -6,29 +6,10 @@
     <title>La bebida que refresca al mundo entero | Coca-Cola ES</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <style>
-        .coca-red { background-color: #ED1C24; }
-        .coca-red-text { color: #ED1C24; }
-        .slider-container {
-            background: linear-gradient(135deg, #ff4757 0%, #ff3838 100%);
-        }
-        .product-card:hover {
-            transform: translateY(-10px);
-            transition: all 0.3s ease;
-        }
-        .fade-in {
-            animation: fadeIn 0.6s ease-in;
-        }
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        .navbar-scroll {
-            backdrop-filter: blur(10px);
-            background-color: rgba(255, 255, 255, 0.95);
-        }
-    </style>
+    <link rel="stylesheet" href="Css/index.css">
 </head>
+
+
 <body class="font-sans">
     <!-- Header/Navbar -->
     <header class="bg-white shadow-sm sticky top-0 z-50">
@@ -36,7 +17,7 @@
             <div class="flex justify-between items-center h-16">
                 <!-- Logo -->
                 <div class="flex-shrink-0">
-                    <img src="img/logo de coca.PNG" alt="Coca-Cola" class="h-8 w-auto">
+                    <img src="img/logo de coca.PNG"Coca-Cola" class="h-8 w-auto">
                 </div>
                 
                 <!-- Navigation Menu -->
@@ -57,12 +38,33 @@
                             Descubre <i class="fas fa-chevron-down ml-1 text-xs"></i>
                         </a>
                         <div class="absolute top-full left-0 bg-white shadow-lg rounded-md py-2 mt-1 hidden group-hover:block min-w-48">
+                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-50">II Edición Premios 'Sin Huella'</a>
                             <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-50">Comparte una Coca‑Cola</a>
                             <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-50">Un Verano Épico</a>
-                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-50">Coca‑Cola Music Experience</a>
+                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-50">Participa y podrás ganar tu escapada de verano</a>
+                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-50">Tu bar, tus momentos</a>
+                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-50">Descubre el viaje de Fuze Tea Sabor Original</a>
+                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-50">¡Colecciona las latas de edicion limitada de Aquarius y gana!</a>
+                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-50">GIRA Mujeres IX edición</a>
+                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-50">Coca‑Cola Music Experience 2025</a>
+                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-50">Fanstore</a>
+                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-50">Coke Studio 2024</a>
+                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-50">Applicación Coca‑Cola</a>
                         </div>
                     </div>
-                    <a href="#" class="text-gray-700 hover:text-red-600 px-3 py-2 text-sm font-medium">Impacto</a>
+                    <div class="relative group">
+                        <a href="#" class="text-gray-700 hover:text-red-600 px-3 py-2 text-sm font-medium flex items-center">
+                                Impacto <i class="fas fa-chevron-down ml-1 text-xs"></i>
+                        </a>
+                        <div class="absolute top-full left-0 bg-white shadow-lg rounded-md py-2 mt-1 hidden group-hover:block min-w-48">
+                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-50">Actualidad informativa</a>
+                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-50">This is Happening</a>
+                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-50">Sostenibilidad</a>
+                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-50">Acción Social</a>
+                        </div>
+                    </div>
+                    
+                
                 </nav>
 
                 <!-- Search and Register buttons -->
@@ -70,8 +72,8 @@
                     <button class="text-gray-500 hover:text-red-600">
                         <i class="fas fa-search"></i>
                     </button>
-                    <button class="coca-red text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-red-700 transition">
-                        Regístrate
+                    <button class=" text-white px-4 py-2  text-sm font-medium hover:bg700 transition">
+                        <img src="img/Register.PNG" alt="">
                     </button>
                 </div>
 
@@ -124,7 +126,7 @@
             <div class="carousel-slide absolute inset-0 bg-gradient-to-r from-green-500 to-teal-500 flex items-center justify-center text-white">
                 <div class="text-center max-w-4xl mx-auto px-4">
                     <h1 class="text-4xl md:text-6xl font-bold mb-4">Fuze Tea Verano 2025</h1>
-                    <p class="text-xl md:text-2xl mb-6"img/coca_fresca.png>Descubre el viaje de Fuze Tea Sabor Original</p>
+                    <p class="text-xl md:text-2xl mb-6">Descubre el viaje de Fuze Tea Sabor Original</p>
                     <button class="bg-white text-green-600 px-8 py-3 rounded-full font-bold hover:bg-gray-100 transition">
                         Descubrir viaje
                     </button>
