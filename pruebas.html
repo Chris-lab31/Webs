@@ -6,108 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La bebida que refresca al mundo entero | Coca-Cola ES</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Font Awesome CDN agregado correctamente -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <link href="Css/index.css" rel="stylesheet">
-    <style>
-        /* Custom styles for better appearance */
-        .navbar-scroll {
-            backdrop-filter: blur(10px);
-            background-color: rgba(255, 255, 255, 0.95);
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-        }
-
-        .hero-gradient {
-            background: linear-gradient(135deg, #ff6b6b, #ff8e8e, #ffa8a8);
-        }
-
-        .productos {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 2rem;
-            margin: 2rem 0;
-            padding: 2rem;
-            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
-            border-radius: 20px;
-        }
-
-        .producto {
-            background: white;
-            border-radius: 15px;
-            padding: 1.5rem;
-            text-align: center;
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
-            transition: all 0.3s ease;
-            transform: translateY(0);
-        }
-
-        .producto:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
-        }
-
-        .producto img {
-            width: 100%;
-            height: auto;
-            max-height: 200px;
-            object-fit: contain;
-            border-radius: 10px;
-        }
-
-        .campaign-card {
-            transition: all 0.3s ease;
-        }
-
-        .campaign-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
-        }
-
-        .social-icon {
-            width: 40px;
-            height: 40px;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: all 0.3s ease;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-        }
-
-        .social-icon:hover {
-            background: rgba(255, 255, 255, 0.2);
-            transform: scale(1.1);
-        }
-
-        .footer-links a {
-            color: #9ca3af;
-            transition: color 0.3s ease;
-        }
-
-        .footer-links a:hover {
-            color: #ffffff;
-        }
-
-        .bottle-container {
-            position: relative;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100%;
-        }
-
-        .bottle-shadow {
-            position: absolute;
-            bottom: -40px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 300px;
-            height: 50px;
-            background: radial-gradient(ellipse, rgba(0, 0, 0, 0.2), transparent);
-            border-radius: 50%;
-            filter: blur(10px);
-        }
-    </style>
 </head>
 
 <body class="font-sans">
@@ -284,35 +185,33 @@
 
 
 
-    <!-- Social Follow Section - Tamaño reducido como la imagen -->
-    <section class="bg-black text-white py-8 rounded-lg my-8 mx-auto max-w-5xl px-8">
+    <!-- Social Follow Section - Mejorado visualmente como la imagen -->
+    <section class="bg-[#0a0a0a] text-white py-8 rounded-xl max-w-6xl mx-auto px-4">
         <div class="flex justify-between items-center">
-            <h2 class="text-xl font-bold">Síguenos</h2>
-            <div class="flex items-center gap-3">
-
-                <div class="flex items-center space-x-4">
-                    <a href="#"
-                        class="w-10 h-10 border border-white rounded-full flex items-center justify-center hover:bg-white hover:text-black transition-all duration-300"
-                        aria-label="X">
-                        <span class="text-lg font-bold">𝕏</span>
-                    </a>
-                    <a href="#"
-                        class="w-10 h-10 border border-white rounded-full flex items-center justify-center hover:bg-white hover:text-black transition-all duration-300"
-                        aria-label="Instagram">
-                        <i class="fab fa-instagram text-lg"></i>
-                    </a>
-                    <a href="#"
-                        class="w-10 h-10 border border-white rounded-full flex items-center justify-center hover:bg-white hover:text-black transition-all duration-300"
-                        aria-label="YouTube">
-                        <i class="fab fa-youtube text-lg"></i>
-                    </a>
-                    <a href="#"
-                        class="w-10 h-10 border border-white rounded-full flex items-center justify-center hover:bg-white hover:text-black transition-all duration-300"
-                        aria-label="Facebook">
-                        <i class="fab fa-facebook-f text-lg"></i>
-                    </a>
-                </div>
+            <h2 class="text-3xl font-extrabold">Síguenos</h2>
+            <div class="flex items-center space-x-4">
+                <a href="#"
+                    class="w-10 h-10 border border-white rounded-full flex items-center justify-center hover:bg-white hover:text-black transition-all duration-300"
+                    aria-label="X">
+                    <i class="fab fa-x-twitter text-lg"></i>
+                </a>
+                <a href="#"
+                    class="w-10 h-10 border border-white rounded-full flex items-center justify-center hover:bg-white hover:text-black transition-all duration-300"
+                    aria-label="Instagram">
+                    <i class="fab fa-instagram text-lg"></i>
+                </a>
+                <a href="#"
+                    class="w-10 h-10 border border-white rounded-full flex items-center justify-center hover:bg-white hover:text-black transition-all duration-300"
+                    aria-label="YouTube">
+                    <i class="fab fa-youtube text-lg"></i>
+                </a>
+                <a href="#"
+                    class="w-10 h-10 border border-white rounded-full flex items-center justify-center hover:bg-white hover:text-black transition-all duration-300"
+                    aria-label="Facebook">
+                    <i class="fab fa-facebook-f text-lg"></i>
+                </a>
             </div>
+        </div>
     </section>
 
 
@@ -323,7 +222,7 @@
             <!-- Header del Footer -->
             <div class="flex flex-col md:flex-row justify-between items-center mb-8 pb-8 border-b border-gray-800">
                 <div class="flex items-center mb-4 md:mb-0">
-                    <img src="img/logo coca negro.PNG" alt="Coca-Cola" class="h-8 w-auto">
+                    <img src="img/logo de coca.PNG" alt="Coca-Cola" class="h-8 w-auto">
                 </div>
                 <div
                     class="flex items-center space-x-2 bg-gray-800 rounded-full px-4 py-2 hover:bg-gray-700 transition-colors cursor-pointer">
